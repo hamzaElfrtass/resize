@@ -15,7 +15,7 @@ def resize_image(input_path, output_path=None):
     new_width = random.randint(64, 100)
     new_height = random.randint(64, 100)
     
-    # Resize the image
+    # Resize the image 
     resized_img = img.resize((new_width, new_height), Image.LANCZOS)
     
     # Create output path if not provided
